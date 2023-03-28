@@ -2,28 +2,3 @@ people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darnell',
 
 #Your code here:
 
-"""for i in range(len(people)):
-    if people[i] == 'Wally':
-       print('La posición de Wally es:', i)
-        break
-
-# Usamos un contador para rastrear la posición actual en la lista
-counter = 0 
-
-# Lista para almacenar las posiciones de los dos "Wally"
-positions = [] 
-
-# Iteramos sobre cada elemento de la lista "people"
-for person in people:
-    # Si el elemento actual es "Wally", agregamos su posición a la lista
-    if person == 'Wally':
-        positions.append(counter)
-    # Incrementamos el contador para el siguiente elemento
-    counter += 1
-    
-# Mostramos las posiciones de los dos "Wally"
-print(positions)"""
-
-for i in range(len(people)):
-    if people[i] == 'Wally':
-        print(i)
