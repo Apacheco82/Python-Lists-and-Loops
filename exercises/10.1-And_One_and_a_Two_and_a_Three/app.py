@@ -4,4 +4,5 @@ contact = {
     "email": "test@test.com"
 }
 #Your code here:
-
+for prop, val in contact.items():
+    print(prop, ":", val)
