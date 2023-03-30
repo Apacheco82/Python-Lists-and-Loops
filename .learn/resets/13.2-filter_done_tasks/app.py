@@ -12,6 +12,4 @@ tasks = [
 
 
 #Your code go here:
-completed_tasks = list(filter(lambda task: task["done"], tasks))
-print(completed_tasks)
 

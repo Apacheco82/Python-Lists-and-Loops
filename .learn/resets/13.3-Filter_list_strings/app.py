@@ -7,10 +7,3 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-def filter_name(name):
-    if  "am" in name.lower():
-        return name
-
-
-resulting_names = list(filter(filter_name, names))
-print(resulting_names)
